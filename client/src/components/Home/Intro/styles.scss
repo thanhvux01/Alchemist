@@ -1,0 +1,24 @@
+.intro-wrapper{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 500px 500px;
+    .intro-text{
+        
+        font-family: PhilosopherRegular;
+        font-size: 2.2rem;
+        
+        > p{
+            margin:0;
+            font-size: 2rem;
+            text-align: center;
+            color: #FFFF;
+        }
+        .btn-config{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        
+    }
+}

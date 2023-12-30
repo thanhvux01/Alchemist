@@ -1,0 +1,38 @@
+.search-bar{   
+            
+    width: 30%;
+    .above-div{
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 220px;
+     height: 46px;
+     background-color: #9fb2e3;
+     border-radius: 20px;
+     .icon-search{
+       
+       height: 46px;
+       width: 72px;
+       > svg{
+         position: relative;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         font-size: 1.4rem;
+       }
+       
+     }
+     
+    }
+    .below-div{
+       position: absolute;
+       min-width: 160px;
+       height: 46px;
+       right: 0;
+       top:0;
+       border-radius: 20px;
+       background-color: rgb(246, 246, 246);
+        
+    }
+   
+ }

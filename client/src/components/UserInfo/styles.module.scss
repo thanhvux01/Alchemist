@@ -1,0 +1,17 @@
+
+
+.container{
+    width: 90%;
+    .user-section{
+        min-height: 200px;
+        padding: 20px 50px;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+        column-gap: 100px;
+        row-gap: 10px;
+        .interact{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+}

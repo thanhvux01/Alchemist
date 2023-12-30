@@ -1,0 +1,50 @@
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .user-wrapper{
+        width: 90%;
+        max-height: 360px;
+        margin: 20px;
+        .header{
+            position: relative;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            height: 100px;
+            .avatar{
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                left: 50px;
+                border: 3px solid #FFF;
+                bottom: -30px;
+            }
+
+        }
+        .detail{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0px 50px;
+            margin-top: 50px;
+            >label{
+                font-family: PhilosopherBold;
+            }
+            .user-info{
+                .icon{
+                    color: #0476D0;
+                }
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        .category{
+            margin:20px 0px;
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

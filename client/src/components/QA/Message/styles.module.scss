@@ -1,0 +1,15 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .bot{
+        display: flex;
+        gap: 10px;
+    }
+
+}

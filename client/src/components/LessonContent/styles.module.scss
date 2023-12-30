@@ -1,0 +1,23 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    .content-wrapper{
+        margin: 50px;
+        padding: 50px;
+        width: 90%;
+       .container{
+        display: flex;
+        flex-direction: column;
+        .title{
+            font-size: 2rem;
+            font-family: PhilosopherBold;
+        }
+        >img{
+            width: 400px;
+            height: 300px;
+        }
+       }
+    }
+}

@@ -1,0 +1,21 @@
+.right-card{
+    height: 50%;
+    background-color: #fffeff;
+    padding: 10%;
+        p,i{
+          font-size: 1vw;
+        }
+        i{
+          color: blue;
+          cursor: pointer;
+        }
+        .input{
+          padding-top:5%;
+        }
+        .btn{
+          width: 100%;
+          height: 10%;
+          border-radius: 10px;
+          font-size: 1vw;
+        }
+  }

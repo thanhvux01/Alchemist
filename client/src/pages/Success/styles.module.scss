@@ -1,0 +1,14 @@
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    .img{
+       img{
+           max-width: 400px;
+           max-height: 400px;
+       }
+    }
+}

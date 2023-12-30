@@ -1,0 +1,38 @@
+
+
+.sidebar-item{
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    .icon{
+        width: 22px;
+        height: 22px;
+        padding-right: 28px;
+        color: #918e95;
+    }
+    .text{
+        font-family: PhilosopherBold;
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width: 1300px ) {
+    .text{
+        display: none;
+    }
+    .icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.checked {
+ 
+    
+      border-right: 4px solid  #096688;
+      background-color: #7EC8E3;
+      opacity: 0.8;
+
+}

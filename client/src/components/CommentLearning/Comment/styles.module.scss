@@ -1,0 +1,35 @@
+.comment-wrapper {
+    padding: 16px 10px;
+    display: flex;
+
+    .content {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+
+         span {
+              font-family: PhilosopherRegular;
+         }
+
+         .info {
+              .username {
+                   font-family: PhilosopherBold;
+              }
+
+              display: flex;
+              flex-direction: column;
+              gap: 3px;
+              .time{
+                   padding: 0px 4px;
+                   font-size: 0.8rem;
+              }
+              
+
+         }
+         .like{
+              display: flex;
+
+         }
+    }
+
+}

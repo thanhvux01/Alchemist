@@ -1,0 +1,42 @@
+.text-field{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+     padding: 10px;
+     background-color:#E7F2F8;
+     width: 80%;
+     min-height: 200px;
+     font-family: PhilosopherBold;
+     border: 1px solid #747474ee;
+    
+     .input-section{
+        display: flex;
+        align-items: center;
+    
+     }  
+
+     .input{
+        
+       width: 50px;
+     }
+
+     .btn{
+        width: 80px;
+        height: 40px;
+     }
+
+     .submit-section{
+       display: flex;
+       gap: 20px;
+       margin-top: auto;
+       margin-left: auto;
+
+     }
+
+ }
+
+
+ .select {
+    width: 300px;
+ }

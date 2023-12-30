@@ -1,0 +1,40 @@
+
+
+.container{
+   display: flex;
+   justify-content: center;
+    
+   .choices-wrapper{
+        width: 80%;
+        min-height: 50px;
+        padding: 50px;
+        display: flex;
+        gap: 10px;
+        .typo{
+            font-family: SFBOLD;
+            font-size: 1.5rem;
+        }
+        flex-direction: column;
+        .title{
+            font-family: PhilosopherBold;
+            font-size: 1.5rem;
+        }
+        align-items: center;
+        .controller{
+            margin-top: 20px;
+            min-width: 400px;
+        }
+    
+   }
+   .result-wrapper{
+    width: 80%;
+    min-height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+
+
+}

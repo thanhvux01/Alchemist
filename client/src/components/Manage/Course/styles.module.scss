@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: center;
+    
+    .courses-wrapper{
+      width: 90%;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      .list-course{
+        display: grid;
+        grid-template-columns: repeat(5,240px);
+        column-gap: 16px;
+      }
+      .bottom-section {
+        display: flex;
+        align-items: center;
+        margin-top: auto;
+        .btn-section{
+            margin-left: auto;
+        }
+      }
+      
+    }
+}

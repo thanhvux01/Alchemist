@@ -1,0 +1,113 @@
+@mixin on-circle($item-count, $circle-size, $item-size) {
+  position: relative;
+  width:  $circle-size;
+  height: $circle-size;
+  padding: 0;
+  border-radius: 50%; 
+  list-style: none;       
+  
+  > * {
+    display: block;
+    position: absolute;
+    top:  50%; 
+    left: 50%;
+    width:  $item-size;
+    height: $item-size;
+    margin: -($item-size / 2);
+  
+    $angle: (360 / $item-count);
+    $rot: 0;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform: 
+          rotate($rot * 1deg) 
+          translate($circle-size / 2) 
+          rotate($rot * -1deg);
+      }
+
+      $rot: $rot + $angle;
+    }
+  }
+}
+
+
+.container{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     left: 0;;
+     right:  0;
+     top: 0;
+     bottom: 0;
+     z-index: 3;
+     background-color: rgb(197, 197, 235,0.5);
+      .content{
+        max-width: 800px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .orbit-container{
+          background-color: #78d0e1;
+          position: relative;
+          border-radius: 5px;
+          display: flex;     
+          align-items: center;
+          justify-content: center;
+          .inner-orbit{
+            @include on-circle($item-count: 8, $circle-size: 200px, $item-size: 10px); 
+            // position: absolute;
+            // border-radius: 50%;
+            // min-width: 50%;
+            // aspect-ratio: 1/1;
+            border: 2px #169fd1 solid;
+            -webkit-animation: spin-right 20s linear infinite;
+            animation: spin-right 20s linear infinite;
+           
+           
+          } 
+          .middle-orbit{
+            @include on-circle($item-count: 5, $circle-size: 240px, $item-size: 10px); 
+            position: absolute;
+            border: 2px #4A437F dashed;
+            -webkit-animation: spin-right 20s linear infinite;
+            animation: spin-right 20s linear infinite;
+          }
+         .outer-orbit{
+          position: absolute;
+          border-radius: 50%;
+          min-width: 70%;
+          aspect-ratio: 1/1;
+          border: 2px #4A437F dashed;
+          -webkit-animation: spin-right 20s linear infinite;
+          animation: spin-right 20s linear infinite;
+         }
+        }
+        .toggle{
+          text-align: right;   
+          font-size: 1rem;
+          color: #68686a;
+          font-family: FeatherBold;
+          cursor: pointer;
+          user-select: none;
+        }
+      }
+    .point{
+ 
+       border-radius: 50%;
+       background-color: #f5f3f3;
+    }
+     
+}
+
+/* ---------- Animation ---------- */
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.lesson-wrapper{
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-top: solid 1px #CCCC;
+    display: flex;
+    flex-direction: column;
+
+    .lesson-title{
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        align-items: center;
+    }
+    .time{
+        opacity: 0.8;
+        padding: 10px 0px 0px 10px;
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+}
+.checked{
+    background-color: #c8c3c3;
+    
+}

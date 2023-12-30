@@ -1,0 +1,45 @@
+.lecture-wrapper{
+    // background-color: #f7f9fa;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fa;
+    //
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        .chapter-title{   
+            display: flex;
+            cursor: pointer;
+            user-select: none;
+            width: 100%;
+            justify-content: space-between;
+            .header{
+                width: 100%;
+                
+                display: flex;
+                font-family: SFBOLD;
+                min-height: 71px;
+            }
+            .show{
+                cursor: pointer;
+            }
+        }
+        .bottom-info{
+
+           span{
+            font-family: SFREGULAR;
+            font-size: 0.8rem;
+            margin-right: 5px
+           }
+        }
+    }
+    //list
+    .list{
+       
+        display: flex;
+        flex-direction: column;
+  
+    }
+ }

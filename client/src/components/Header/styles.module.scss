@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    min-height: 76px;
+    padding: 0px 20px;
+    z-index: 1;
+    .logo {
+        img {
+            width: 76px;
+            height: 76px;
+            filter: brightness(0) saturate(100%) invert(40%) sepia(36%) saturate(5514%) hue-rotate(189deg) brightness(105%) contrast(96%);
+        }
+    }
+}
+
+.header-wrapper{
+    // background-color: #c2d8d9;
+    display: flex;
+    align-items: center;
+    background-color: #2d2f31;
+    width: 100%;
+    padding: 0px 20px;
+    z-index: 1;
+    .logo {
+        img {
+            width: 58px;
+            height: 58px;     
+            filter: sepia(34%) saturate(3983%) hue-rotate(176deg) brightness(107%) contrast(105%);
+        }
+    }
+    .title{
+        margin-left: 44px;
+        padding: 5px 20px;
+        border-left: 1px solid #CCCCCC;
+        font-family: SFMEDIUM;
+        color: #FFFF;
+    }
+}

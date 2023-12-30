@@ -1,0 +1,73 @@
+.container {
+
+     display: flex;
+     padding: 20px 80px;
+     flex-direction: column;
+
+
+     .row {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+
+     }
+
+     .control {
+          display: flex;
+          align-items: center;
+     }
+
+     .total {
+          cursor: pointer;
+          font-family: SFBOLD;
+          font-size: 1.2rem;
+          padding-right: 40px;
+
+          span {
+               font-size: 1.2rem;
+               padding-right: 5px;
+          }
+     }
+
+     .sort {
+          display: flex;
+          align-items: center;
+
+          .icon {
+               width: 20px;
+               height: 24px;
+          }
+
+          cursor: pointer;
+          font-family: SFBOLD;
+     }
+
+     .your-comment {
+          padding: 20px 0px;
+
+          .info {
+               display: flex;
+               width: 100%;
+               gap: 20px;
+
+               .avatar {
+                    height: 46px;
+                    width: 46px;
+               }
+
+               .input {
+                    flex: auto;
+               }
+             
+          }
+
+          .submit {
+
+
+               margin-left: auto;
+
+               .btn {}
+          }
+     }
+}

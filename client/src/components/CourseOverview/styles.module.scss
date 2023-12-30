@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    .detail-course-wrapper {
+
+        margin-top: 20px;
+        width: 90%;
+        min-height: 500px;
+        padding: 20px;
+
+        .title {
+            >label {
+                font-size: 1.5rem;
+                font-family: SFBOLD;
+                color: #75E6DA;
+            }
+
+            >p {
+                color: #05445E;
+                font-family: Philosopher;
+            }
+
+            .img {
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        .table {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 4;
+            row-gap: 10px;
+
+            .title {
+                grid-column: 1/ span 4;
+                font-size: 1.2rem;
+                font-family: SFBOLD;
+                color: #75E6DA;
+            }
+
+            .left {
+                grid-column: 1/span 2;
+            }
+
+            .right {
+                grid-column: 3/span 2;
+            }
+            .desc{
+                padding: 16px;
+                font-family: PhilosopherRegular;
+            }
+        }
+
+        .overview-wrapper {
+            display: flex;
+
+            .info {
+                width: 50%;
+            }
+
+            .interact-section {
+                width: 50%;
+                display: flex; 
+                .content {
+                    display: flex;
+                    margin-left: auto;
+                    flex-direction: column;
+                    width: 350px;
+                    align-items: center;
+                    min-height: 200px;
+                    padding: 5px; 
+                     .media-section{
+                        width: 100%;
+                        min-height: 180px;
+                     }
+                     .price-section{
+                        .price{
+
+                            .sale-price{
+                                font-family: SFBOLD;
+                                color: #060606;
+                                font-size: 1.9rem;
+                                
+                            }
+                        
+                        }
+                        .sale{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            .origin-price{
+                                margin-left: 10px;
+                                font-family: SFREGULAR;
+                                color: #6e6c6c;
+                               
+                                text-decoration: line-through;
+                                
+                            }
+                            .off-percent{
+                                margin-left: 10px;
+                                font-family: SFREGULAR;
+                                color: #6e6c6c;
+                                font-size: 1.1rem;
+                              
+                            }
+                        }
+                     }
+                    .btn-section { 
+                        .btn-cart {
+                            background-color: #00a89a;
+                            border-radius: 0;
+                            padding: 10px 90px;
+                            font-size: 0.8rem;
+                            font-family: SFBOLD;
+                            color: #ffffff;
+                        }
+                        .break{
+                            width: 100%;
+                        }
+                        .btn-favorite{
+                           
+                        }
+                        .btn-buy{
+                            background-color: #00a89a;
+                            margin-top: 10px;
+                            font-size: 0.8rem;
+                            font-family: SFBOLD;
+                            color: #FFFF;
+                            padding: 10px 120px;
+                        }
+
+                    }
+                .supply {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%; 
+                    padding: 5px 0px;
+                    .title{
+                        font-size: 0.8rem;
+                        font-family: SFBOLD;
+                        color: #2b2a2a;
+                       
+                    }
+                    .line{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        .detail{
+                            font-size: 0.8rem;
+                            font-family: SFREGULAR;
+                            color: #2b2a2a;
+                        }
+                    }
+
+                }    
+                   
+                }
+
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding: 0;
+	border: 0;
+  box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+@font-face {
+    font-family: FeatherBold;
+    src: url(./assets/font/Feather.ttf);
+  }
+  @font-face {
+    font-family: Fredoka;
+    src: url(./assets/font/FredokaOneRegular.otf);
+  }
+  @font-face {
+    font-family: PhilosopherBold;
+    src: url(./assets/font/Philosopher-Bold.otf);
+  }
+  @font-face {
+    font-family: PhilosopherRegular;
+    src: url(./assets/font/Philosopher-Regular.otf);
+  }
+  @font-face {
+    font-family: SFBOLD;
+    src: url(./assets/font/SanFranciscoDisplay-Bold.otf);
+  }
+  @font-face {
+    font-family: SFMEDIUM;
+    src: url(./assets/font/SanFranciscoDisplay-Semibold.otf);
+  }
+  @font-face {
+    font-family: SFREGULAR;
+    src: url(./assets/font/SanFranciscoDisplay-Regular.otf);
+  }

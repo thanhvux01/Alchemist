@@ -1,0 +1,19 @@
+
+.middle-card {
+    height: 70%;
+    background-color: #4a65fa;
+    padding: 30px;
+    >h2{
+        
+         color: white;
+         font-size: 1.2rem;
+         font-family: FeatherBold;
+    }
+    >img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90%;
+        width: 90%;     
+    }
+  }

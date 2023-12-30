@@ -1,0 +1,46 @@
+.annotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .large-element {
+      position: relative;
+      min-width: 120px;
+      min-height: 120px;
+      p {
+        font-size: 1.2rem !important;
+      }
+      > :nth-child(1) {
+        font-size: 1.5rem !important;
+      }
+      > :nth-child(2) {
+        font-size: 1.8rem !important;
+      }
+    }
+    .lbl-atomic-number,
+    .lbl-symbol,
+    .lbl-name,
+    .lbl-mol {
+      color: #3a87d9;
+      font-family: PhilosopherBold;
+      position: absolute;
+      width: 150px;
+      text-align: right;
+      border-bottom: 1px solid #ffff;
+      left: 120px;
+    }
+    .lbl-atomic-number {
+      top: 0;
+    }
+    .lbl-symbol {
+      top: 40px;
+    }
+    .lbl-mol {
+      top: 80px;
+    }
+    .lbl-name {
+      text-align: left;
+      width: 70px;
+      top: 60px;
+      left: -80px;
+    }
+  }

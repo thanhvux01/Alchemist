@@ -1,0 +1,64 @@
+.element-box{
+    &:Hover{
+      background-color: rgb(38, 209, 195);
+    }
+  
+    color: #FFF;
+    user-select: none;
+    cursor: pointer;
+    max-width: 62px;
+    max-height: 62px;
+    justify-content: center;
+    background-color: #66b3b3 ; 
+    border: 1px solid #4c9292;
+    display: flex;
+    flex-direction: column;
+    
+    .mol-section{
+      margin-left: auto;
+    }
+    .label-section{
+      text-align: center;
+      
+    }
+    .detail-section{
+       p{
+          font-size: 0.4rem;
+          text-align: center;
+          
+       }
+    }
+
+}
+.Lanthanide{
+  background-color: #4c9292;
+}
+.Gas{
+  background-color: #7f924c;
+}
+.Noble{
+  background-color: #7f924c;
+}
+.Actinide{
+  background-color: #4c9292;
+}
+.Halogen{
+  background-color: #86e14e;
+}
+.Metalloid{
+  background-color: #303a2b;
+}
+.Gas{
+  background-color: #eba21a;
+}
+.Nonmetal{
+  background-color: #cccac7;
+}
+@media (max-width:690px) {
+     .mol-section{
+      display: none;
+     }
+     .detail-section{
+      display: none
+     }
+}

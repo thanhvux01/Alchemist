@@ -1,0 +1,35 @@
+    
+    .home-header{
+        display: flex;
+        height: 160px;
+        justify-content: center;
+        align-items: center;
+        // .home-logo,.home-direction{
+        //     margin-top: 50px
+        // }
+        .home-logo{
+            display: flex;
+            width:30%;
+            justify-content: center;
+            > img{
+                width: 80px;
+                height: 80px; 
+
+            }
+           
+        }
+        .home-direction{
+            width:40%;
+             ul{
+                list-style-type: none;
+                display:flex;
+                li{
+                    color:#FFFF;
+                    font-family: PhilosopherBold;
+                    margin:auto;
+                    font-size: 24px;
+                }
+             }
+        }
+       
+    }
