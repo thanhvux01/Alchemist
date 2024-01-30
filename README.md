@@ -42,9 +42,9 @@ AI assistant (Chat GPT)
 
 
 ## Tech
-- [react] -   Front-end
-- [mongodb] - Database
-- [express] - Back-end ( Mongoose , JWT )
+- [react](https://www.react.dev) -   Front-end
+- [mongodb](https://www.mongodb.com) - Database
+- [express](https://www.expressjs.com) - Back-end ( Mongoose , JWT )
 
 
 
