@@ -15,25 +15,28 @@
 - AI Assistant
 - Minigame
 ## UI
->Intro
+Intro
 ![New Bitmap image.png](https://www.dropbox.com/scl/fi/r48cnhcs84juhdpsadgvu/New-Bitmap-image.png?rlkey=f4e08b65patoqp8enqolgcxuk&dl=0&raw=1)
 
->Login
+Login
 ![login.png](https://www.dropbox.com/scl/fi/e6syoprejgum7mn2u9gsk/New-Bitmap-image-2.png?rlkey=cam8zgpqh8j8h46ukkkgq00vj&dl=0&raw=1)
 
->Hub
+Hub
 ![hub.png](https://res.cloudinary.com/dicgj8bdg/image/upload/v1706653761/Alchemist/dcsxcunkcjes02jfjwng.png)
 
->Periodic Table
+Periodic Table
 ![perodic.png](https://res.cloudinary.com/dicgj8bdg/image/upload/v1706653906/localhost_3000_periodic_eobofx.png)
+
 >Category
 ![category.gif](https://res.cloudinary.com/dicgj8bdg/image/upload/v1706654675/bandicam2024-01-3105-41-59-268-ezgif.com-video-to-gif-converter_ule1px.gif)
+
 >Combination
-![combine.gif](https://www.dropbox.com/scl/fi/jydvzw8k310c2jfcdt6k9/bandicam2024-01-3105-38-17-908-ezgif.com-video-to-gif-converter.gif?rlkey=qysqq2zdsvnx6fuaigk22nlh9&dl=0&raw=1)
->Calculator
+![combine.gif](https://res.cloudinary.com/dicgj8bdg/image/upload/v1706656288/bandicam2024-01-3105-38-17-908-ezgif.com-video-to-gif-converter_kx20jg.gif)
+
+Calculator
 ![combine.gif](https://res.cloudinary.com/dicgj8bdg/image/upload/v1706654784/localhost_3000_calc_nepb2j.png
 )
->AI assistant (Chat GPT)
+AI assistant (Chat GPT)
 ![image.png](https://www.dropbox.com/scl/fi/fy8gzuxkc0xojzdpm8gx6/image.png?rlkey=x4y5s5n6sayz0gwphkck1egqx&dl=0&raw=1)
 
 
