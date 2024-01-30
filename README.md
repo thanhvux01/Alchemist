@@ -3,7 +3,7 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/thanhvux01)
 
 ![laboratory.png](https://www.dropbox.com/scl/fi/se4zauauyuks73qu73qc7/laboratory.png?rlkey=isxaranpizqigrsdkvshj8e08&dl=0&raw=1)
 >Chemistry is figuring out how things work and why they work that way
@@ -42,10 +42,9 @@ AI assistant (Chat GPT)
 
 
 ## Tech
-- [react] - HTML enhanced for web apps!
-- [mongodb] - awesome web-based text editor
-- [node.js] - Markdown parser done right. Fast and easy to extend.
-- [express] - fast node.js network app framework [@tjholowaychuk]
+- [react] -   Front-end
+- [mongodb] - Database
+- [express] - Back-end ( Mongoose , JWT )
 
 
 
@@ -75,20 +74,32 @@ NODE_ENV=production node app
 
 
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [mongodb]: <<https://mongo.com/>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [React]: <http://react.dev>
-   [Gulp]: <http://gulpjs.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
